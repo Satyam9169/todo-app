@@ -1,0 +1,55 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+  body {
+    background-color: #627254;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: auto;
+    margin-top: 2.5rem;
+  }
+  
+  .boxes {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .boxcontainer {
+    width: 40%;
+    margin-top: 1rem;
+    display: flex;
+    flex-wrap: wrap; /* Wrap buttons to next line if needed */
+  }
+  
+  .b1, .b2, .b3 { /* Additional styles for your grid layout (optional) */
+    display: flex;
+  }
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    font-size: 25px;
+    margin: 5px; /* Add margin for spacing between buttons */
+    color: aliceblue;
+    cursor: pointer;
+  }
+  
+  .reset, .newGame{
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    margin: 2rem;
+  }
+  .msg{
+    margin: 2rem;
+  }
